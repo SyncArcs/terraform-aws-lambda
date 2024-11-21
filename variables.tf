@@ -151,11 +151,7 @@ variable "s3_object_versions" {
   description = "The object version containing the function's deployment package. Conflicts with filename."
 }
 
-variable "names" {
-  type        = list(any)
-  default     = []
-  description = "A unique name for your Lambda Layer."
-}
+
 
 variable "compatible_runtimes" {
   type        = list(any)
